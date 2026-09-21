@@ -1,0 +1,186 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+}
+
+header h1 {
+    color: #64b5f6;
+    margin: 0 0 15px 0;
+    font-size: 32px;
+}
+
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #90caf9;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 25px;
+}
+
+section {
+    background-color: #1e1e1e;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+}
+
+
+
+h2 {
+    color: #64b5f6;
+    border-bottom: 1px solid #444444;
+    padding-bottom: 8px;
+}
+
+p {
+    color: #d0d0d0;
+}
+
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid #444444;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #444444;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c2c2c;
+    color: #90caf9;
+}
+
+td {
+    background-color: #181818;
+}
+
+
+audio,
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+
+a {
+    color: #90caf9;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #444444;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend {
+    color: #90caf9;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    color: #d0d0d0;
+}
+
+input,
+textarea {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #64b5f6;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #1976d2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #1565c0;
+}
+
+
+footer {
+    background-color: #1f1f1f;
+    color: #999999;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #333333;
+}
+
+footer p {
+    color: #999999;
+    margin: 0;
+}
